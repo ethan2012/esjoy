@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["yuchen wang"]
   spec.email         = ["ethan.wang2011@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Elasticsearch wrapper tool.}
+  spec.description   = %q{Allows user to use elasticsearch in ruby projects.}
+  spec.homepage      = "https://github.com/ethan2012/esjoy.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

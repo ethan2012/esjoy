@@ -1,8 +1,13 @@
 require "esjoy/version"
+require ''
 
 module Esjoy
-  # Your code goes here...
+	# extend ActiveSupport::Concern
   def self.hello
   	p 'hello there'
+  end
+
+  def joy_data
+  	
   end
 end

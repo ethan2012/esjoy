@@ -1,5 +1,4 @@
 require "esjoy/version"
-require ''
 
 module Esjoy
 	# extend ActiveSupport::Concern

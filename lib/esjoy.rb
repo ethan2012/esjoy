@@ -7,7 +7,14 @@ module Esjoy
   	p 'hello there'
   end
 
-  def joy_data
-  	
+  def esjoy_data
+  	p 'test first method'
   end
+end
+
+require "active_model/callbacks"
+ActiveModel::Callbacks.include(Esjoy::Model)
+
+ActiveSupport.on_load(:active_record) do
+  extend Esjoy::Model
 end
